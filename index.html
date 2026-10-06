@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>LocalDrop - P2P File Transfer | Device to Device, No Upload</title>
+    <meta
+      name="description"
+      content="Send anything device to device. No upload, no account. Fast, private, peer-to-peer WebRTC file transfers directly in your browser."
+    />
+    <meta name="keywords" content="peer to peer file transfer, P2P file sharing, send files between phone and PC, WebRTC file transfer, file transfer without upload, send files without account, AirDrop alternative, browser file transfer" />
+    <meta name="author" content="LocalDrop" />
+    <link rel="canonical" href="https://localdrop.vercel.app/" />
+
+    <!-- OpenGraph Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LocalDrop" />
+    <meta property="og:title" content="LocalDrop - P2P File Transfer" />
+    <meta
+      property="og:description"
+      content="Send anything device to device. No upload, no account. Fast, private, peer-to-peer WebRTC file transfers."
+    />
+    <meta property="og:image" content="/pwa-512x512.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LocalDrop - P2P File Transfer" />
+    <meta
+      name="twitter:description"
+      content="Send anything device to device. No upload, no account. Fast, private, peer-to-peer WebRTC file transfers."
+    />
+    <meta name="twitter:image" content="/pwa-512x512.png" />
+
+    <!-- PWA & Mobile Web App Meta -->
+    <meta name="theme-color" content="#070d18" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="LocalDrop" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-192x192.png" />
+
+    <!-- Schema.org WebApplication JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "LocalDrop",
+      "url": "https://localdrop.vercel.app",
+      "description": "Send anything device to device. No upload, no account. Fast, private, peer-to-peer WebRTC file transfers.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires WebRTC compatible browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-[#070b14] text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-200 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

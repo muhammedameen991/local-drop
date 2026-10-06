@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://localdrop.vercel.app/sitemap.xml

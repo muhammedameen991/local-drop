@@ -1,0 +1,10 @@
+{
+  "name": "LocalDrop - P2P File Transfer",
+  "description": "Send anything device to device. No upload, no account. Fast, private, peer-to-peer WebRTC file transfers.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
